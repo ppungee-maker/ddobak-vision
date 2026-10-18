@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ddobak-vision"
+version = "0.1.0"
+description = "또박또박 — AI 공문 해독기: 멀티모달 추출 모듈 (비전 LLM 추출·파싱, 3색 좌표 표시, 금액·날짜 이중 확인)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2",
+    "pillow>=10",
+    "anthropic>=0.40",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+]
+
+[project.scripts]
+ddobak-vision = "ddobak_vision.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
