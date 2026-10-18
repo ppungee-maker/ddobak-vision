@@ -1,5 +1,11 @@
 # ddobak-vision
 
+> ⚠️ **연습용 레포 — 실제 제출물 아님.** 진짜 팀 레포는
+> [dicia-jhoh/codyssey-m3-final](https://github.com/dicia-jhoh/codyssey-m3-final)이고,
+> 이 모듈 내용은 그 레포의 `backend/app/extract.py`로 포팅해서 PR로 올렸다
+> ([PR #9](https://github.com/dicia-jhoh/codyssey-m3-final/pull/9)). 여기는 그 전에
+> 설계를 연습해본 개인 스테이징 레포로만 남겨둔다.
+
 코디세이 AI Native Master 과정 Final-Project **"또박또박 — AI 공문 해독기"**(5인 팀, 팀장
 오주현)의 **멀티모달 추출** 모듈. 담당: 황지영.
 
