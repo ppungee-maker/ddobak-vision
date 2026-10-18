@@ -1,0 +1,61 @@
+{
+  "source_image": "sample_data/sample-자동차세고지서.jpg",
+  "items": [
+    {
+      "id": "item-1",
+      "color": "red",
+      "label": "앱 납부 금액",
+      "raw_text": "금 48,200원",
+      "bbox": {
+        "x": 0.62,
+        "y": 0.18,
+        "w": 0.3,
+        "h": 0.06
+      },
+      "page": 1,
+      "confidence": 0.95,
+      "parsed_amount_won": 48200,
+      "parsed_date_iso": null,
+      "verified": true,
+      "verify_note": null
+    },
+    {
+      "id": "item-2",
+      "color": "blue",
+      "label": "납부 기한",
+      "raw_text": "2026.10.31까지",
+      "bbox": {
+        "x": 0.62,
+        "y": 0.26,
+        "w": 0.3,
+        "h": 0.06
+      },
+      "page": 1,
+      "confidence": 0.93,
+      "parsed_amount_won": null,
+      "parsed_date_iso": "2026-10-31",
+      "verified": true,
+      "verify_note": null
+    },
+    {
+      "id": "item-3",
+      "color": "green",
+      "label": "챙길 서류",
+      "raw_text": "신분증, 차량등록증 사본",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.7,
+        "w": 0.55,
+        "h": 0.08
+      },
+      "page": 1,
+      "confidence": 0.88,
+      "parsed_amount_won": null,
+      "parsed_date_iso": null,
+      "verified": null,
+      "verify_note": null
+    }
+  ],
+  "document_text": "지방세(자동차세) 납부 안내\n납부금액: 금 48,200원\n납부기한: 2026.10.31까지\n구비서류: 신분증, 차량등록증 사본\n문의: 주민센터 세무과\n",
+  "warnings": []
+}
